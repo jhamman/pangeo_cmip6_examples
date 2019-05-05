@@ -2,7 +2,7 @@
 FROM pangeo/pangeo-ocean:2019.03.12
 
 # for testing purposes
-RUN pip install git+https://github.com/jhamman/jhamman/dask-kubernetes.git@default_tolerations
+RUN pip install git+https://github.com/jhamman/dask-kubernetes.git@default_tolerations
 
 # https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html#preparing-your-dockerfile
 ENV NB_USER jovyan
